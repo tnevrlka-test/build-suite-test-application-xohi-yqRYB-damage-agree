@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: test-custom-default-branch-fvpu
     spec:
       containers:
-      - image: hello-world:latest
+      - image: quay.io/tnevrlka-test/build-e2e-myxf-tenant/build-suite-test-application-xohi/test-custom-default-branch-fvpu@sha256:3ffb06d55e2d1075a374f524a42a8dd830e13eac0a048cc4cc74ce0575a9532b
         name: my-nginx
         ports:
         - containerPort: 8080
